@@ -11,14 +11,14 @@ import random
 import math
 
 
-# Global değişkenlerin tanımlanması [Önemli: Diğerler değişkenler ve algoritmanın çalıştırılması kısmı sayfanın en aşağısındadır]...
+# Defining global variables [Important: Other variables and execution of the algorithm is at the bottom of the page] ...
 isimler = ['Televizyon', 'Kamera', 'Projektör', 'Walkman', 'Radyo', 'Cep Telefonu', 'Dizüstü Bilgisayar']
 kar = [35, 85, 135, 10, 25, 2, 94]
 kg = [2, 3, 9, 0.5, 2, 0.1, 4]
 maxKg = 25
 
 
-# Maksimize etmeye çalıştığımız fonksiyon...
+# The function we are trying to maximize ...
 def fncMax(x):
     t = fncTaneKar(x)
     return t + fncTaneKilogram(x, t)
